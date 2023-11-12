@@ -1,5 +1,5 @@
 ---
-title: "World Bank Assessment - STC Position"
+title: "World Bank Assessment for STC Position"
 author: Baqir Fateh
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 format: html
@@ -12,7 +12,6 @@ editor: visual
 #| warning: false
 library(tidyverse)
 library(Hmisc)
-library(waldo)
 library(matrixStats) # I used this package to calucate the weighted median 
 library(DT)
 #### Set up the Url to download the raw data 
@@ -24,7 +23,7 @@ data_url <- paste0(base_url, tag, "/data/Rtest1/")
 wdi <- readr::read_rds(paste0(data_url, "wdi_in1.Rds"))
 ```
 
-### 1. Summary statistics of GDP per capita by region 
+### 1. Summary statistics of GDP per capita by region
 
 The replicated results in this task are almost identical to the original results.
 
@@ -269,7 +268,7 @@ q5_rep%>%
 
 ```
 
-### 6. Estimating Gini Coefficient 
+### 6. Estimating Gini Coefficient
 
 The replicated results are almost identical to the original outputs.
 
