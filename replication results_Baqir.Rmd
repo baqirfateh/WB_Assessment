@@ -47,7 +47,7 @@ datatable(q1_rep, options = list(pageLength = 10), filter = "top")
 
 ### 2. Aggregate stats
 
-The replicated results in this task are pretty close to the original outputs except for the median. I tried to estimate the weighted median using an existing function, but the estimates are off.
+The replicated results in this task are close to the original outputs except for the median. I tried to estimate the weighted median using an existing function, but the estimates are off.
 
 ```{r}
 #| warning: false
@@ -90,7 +90,7 @@ datatable(q2_rep, options = list(pageLength = 10), filter = "top")
 
 ### 3. Find outliers
 
-The replicated results are pretty close to the original outputs.
+The replicated results are very close to the original outputs.
 
 ```{r}
 ############################################
@@ -203,7 +203,7 @@ q4_rep%>%
 
 ### 5. Lorenz curve
 
-The replicated results in this task are different from the original output. However, the graph looks pretty similar.
+The replicated results in this task are different from the original output. However, the graph looks similar.
 
 ```{r}
 #######################################     
